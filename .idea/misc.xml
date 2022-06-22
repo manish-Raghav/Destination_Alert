@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DestinationAlert/app/src/main/res/drawable/round.xml" value="0.2846153846153846" />
         <entry key="..\:/DestinationAlert/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/DestinationAlert/app/src/main/res/layout/activity_maps.xml" value="0.234375" />
       </map>
     </option>
   </component>

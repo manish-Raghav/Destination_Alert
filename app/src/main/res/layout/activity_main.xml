@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.SearchView
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@color/white" />-->
+
+    <SearchView
+        android:id="@+id/mse"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:elevation="10dp"
+        android:queryHint="Search_Destination"
+        android:backgroundTint="@color/search_back"
+        android:iconifiedByDefault="false"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <fragment
+        android:id="@+id/myMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="match_parent" />
 
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:background="@color/white">-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--        -->
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>

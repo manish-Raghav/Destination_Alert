@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Destination Alert</string>
+    <string name="title_activity_map">MapAct</string>
+    <string name="title_activity_maps">Maps</string>
 </resources>
